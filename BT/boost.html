@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Bootstrap</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equix="X-UA-Compatible" content="IE=edge">
+    <meta http-equix="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="C:\Users\Oduntan's\Desktop\bootstrap-4.0.0-dist\css\bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+
+  <body>
+      <nav class="navbar bg-dark navbar-dark navbar-expand-sm container-fluid" id="navbar-site">
+        <div class="container-fluid">
+           
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mytogglenav" 
+                aria-controls="mytogglenav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="navbar-brand">
+                <h1>HEADER</h1>
+            </div>
+
+            <div class="collapse navbar-collapse" id="mytogglenav">
+                <div class="navbar-nav ml-sm-auto mr-sm-4">
+                    <a href="#" class="nav-item nav-link active">Home</a>
+                    <div class="dropdown">
+                        <a href="#" class="nav-item nav-link dropdown-toggle" 
+                            data-toggle="dropdown" id="servicesdropdown" 
+                            aria-haspopup="true" aria-expanded="false">
+                            Services</a>
+                            <div class="dropdown-menu" aria-labelledby="servicesdropdown">
+                                <a href="#" class="dropdown-item">General Health</a>
+                                <a href="#" class="dropdown-item">General Health</a>
+                                <a href="#" class="dropdown-item">General Health</a>
+                                <a href="#" class="dropdown-item">General Health</a>
+                                <a href="#" class="dropdown-item">General Health</a>
+                            </div>    
+                    </div>
+                    <a href="#" class="nav-item nav-link">About</a>
+                    <div >
+                        <a href="#contactmodal" data-toggle="modal" class="nav-item nav-link">Contact</a>
+                        <div id="contactmodal" class="modal fade">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title">Contact Us</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>For more info, contact us at info@gmail.com or visit our office at 
+                                                10021 Billings way, Main Highway, Ousborne. You can also reach our customer services on +12443210 </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+           
+            <form action="" class="form-inline d-none d-lg-block">
+                <div class="input-group">
+                    <label for="search" class="sr-only">Search</label>
+                    <input type="text" class="form-control" id="search" placeholder="Search">
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-light " type="submit">Go</button>
+                    </div>    
+                </div>
+            </form>
+        </div>
+    </nav>
+    <div class="container-fluid">
+     
+        <div class="row">
+            <aside class="col-md-2 range">
+                <h4 class="range-title">
+                    <b>Mountain Ranges</b>
+                </h4>
+                <div class="range-list">
+                    <a href="#">
+                        <img src="logo-saas-fav.png" alt="">
+                        <h4>Wasatch Range</h4>
+                    </a>
+                    <a href="#">
+                        <img src="logo-saas-fav.png" alt="">
+                        <h4>Wasatch Range</h4>
+                    </a>
+                    <a href="#">
+                        <img src="logo-saas-fav.png" alt="">
+                        <h4>Wasatch Range</h4>
+                    </a>
+                    <a href="#">
+                        <img src="logo-saas-fav.png" alt="">
+                        <h4>Wasatch Range</h4>
+                    </a>
+                    <a href="#">
+                        <img src="logo-saas-fav.png" alt="">
+                        <h4>Wasatch Range</h4>
+                    </a>
+                </div>
+            </aside>
+            <section class="col-md-8 section">
+                <div class="btn-group my-2">
+                    <button type="button" class="btn btn-primary">
+                        Services
+                    </button>
+                    <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" 
+                        data-toggle="dropdown" id="dropdown" 
+                        aria-haspopup="true" aria-expanded="false">
+                        <span class="sr-only">Toggle dropdown</span>
+                    </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdown">
+                            <a href="#" class="dropdown-item">General Health</a>
+                            <a href="#" class="dropdown-item">General Health</a>
+                            <a href="#" class="dropdown-item">General Health</a>
+                            <a href="#" class="dropdown-item">General Health</a>
+                            <a href="#" class="dropdown-item">General Health</a>
+                        </div>    
+                </div>
+                <div class="carousel slide carousel-fade my-3" id="random" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#random" data-slide-to="0"></li>
+                        <li data-target="#random" data-slide-to="1" class="active"></li>
+                        <li data-target="#random" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="Lake/507.jpg" alt="Lake">
+                        </div>
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="Walkway/17919.jpg" alt="Walkway">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="mountains-nature-blue-sun-4007309.jpg" alt="Airplane">
+                        </div>
+                    </div>
+                    <a href="#random" class="carousel-control-prev" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true">
+                            <span class="sr-only">Previous</span>
+                        </span>
+                    </a>
+                    <a href="#random" class="carousel-control-next" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true">
+                            <span class="sr-only">Next</span>
+                        </span>
+                    </a>
+                </div>
+                <div class="embed-responsive embed-responsive-4by3 mb-3">
+                    <iframe class="embed-responsive-item" src="C:\Users\Oduntan's\Desktop\Front-end develeoper\K. Responsive Layout\69. Intro and Basic page structure\392 - Go cross-platform with responsive design Responsive Layout.mp4" frameborder="0"></iframe>
+                </div>
+                <div id="accordion" role="tablist" aria-multiselectable="true">
+                    <div class="card mb-3">
+                        <div class="card-header" role="tab" id="lakeheader">
+                            <h2 class="mb-0">
+                                <a href="#lake" data-toggle="collapse" data-parent="accordion" aria-expanded="true" aria-controls="lake">
+                                    Why I Went Into the Lake
+                                </a>
+                            </h2>
+                        </div>
+                        <div id="lake" class="collapse show" role="tabpanel" aria-labelledby="lakeheading">
+                            <div class="card-block">
+                                <div class="card-img">
+                                    <img src="lake/507.jpg" alt="">
+                                </div>
+                            
+                                <div>
+                                    <p class="col-sm-10">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Accusamus veniam, enim labore non ducimus iure. Perferendis dolorem ducimus vero, neque ipsa fugiat ea hic incidunt in dolores corporis provident est!
+                                    </p>
+                                    <div class="col-sm-2 mb-2">
+                                        <input type="button" class="btn btn-primary" value="More...">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                    <div class="card mb-3">
+                        <div class="card-header" role="tab" id="lakeheader">
+                            <h2 class="mb-0">
+                                <a href="#lake" data-toggle="collapse" data-parent="accordion" aria-expanded="true" aria-controls="lake">
+                                    Why I Went Into the Lake
+                                </a>
+                            </h2>
+                        </div>
+                        <div id="lake" class="collapse show" role="tabpanel" aria-labelledby="lakeheading">
+                            <div class="card-block">
+                                <div class="card-img">
+                                    <img src="lake/507.jpg" alt="">
+                                </div>
+                            
+                                <div>
+                                    <p class="col-sm-10">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Accusamus veniam, enim labore non ducimus iure. Perferendis dolorem ducimus vero, neque ipsa fugiat ea hic incidunt in dolores corporis provident est!
+                                    </p>
+                                    <div class="col-sm-2 mb-2">
+                                        <input type="button" class="btn btn-primary" value="More...">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                    <div class="card mb-3">
+                        <div class="card-header" role="tab" id="lakeheader">
+                            <h2 class="mb-0">
+                                <a href="#lake" data-toggle="collapse" data-parent="accordion" aria-expanded="true" aria-controls="lake">
+                                    Why I Went Into the Lake
+                                </a>
+                            </h2>
+                        </div>
+                        <div id="lake" class="collapse show" role="tabpanel" aria-labelledby="lakeheading">
+                            <div class="card-block">
+                                <div class="card-img">
+                                    <img src="lake/507.jpg" alt="">
+                                </div>
+                            
+                                <div>
+                                    <p class="col-sm-10">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Accusamus veniam, enim labore non ducimus iure. Perferendis dolorem ducimus vero, neque ipsa fugiat ea hic incidunt in dolores corporis provident est!
+                                    </p>
+                                    <div class="col-sm-2 mb-2">
+                                        <input type="button" class="btn btn-primary" value="More...">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+            </section>
+            <aside class="sports-icon-list col-md-2 sports">
+                    <a href="#">
+                        <img src="logo-saas-fav.png" alt="">
+                        <h6>Wasatch Range</h6>
+                    </a>
+                    <a href="#">
+                        <img src="logo-saas-fav.png" alt="">
+                        <h6>Wasatch Range</h6>
+                    </a>
+                    <a href="#">
+                        <img src="logo-saas-fav.png" alt="">
+                        <h6>Wasatch Range</h6>
+                    </a>
+                    <a href="#">
+                        <img src="logo-saas-fav.png" alt="">
+                        <h6>Wasatch Range</h6>
+                    </a>
+                    <a href="#">
+                        <img src="logo-saas-fav.png" alt="">
+                        <h6>Wasatch Range</h6>
+                    </a>
+            </aside>
+        </div>
+    </div>
+    <div class="alert alert-secondary alert-dismissible fade show fixed-bottom mb-0">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="alert-heading text-warning">Warning</h4>
+        <p>This site uses cookies and contents is private to the company</p>
+        <button type="button" class="alert-btn btn btn-outline-secondary" data-dismiss="alert">
+            Accept
+        </button>
+
+    </div>
+    <footer class="container-fluid">
+        <h1>
+            FOOTER
+        </h1>
+    </footer>
+    <!-- Optional JavaScript -->
+    <script src="C:\Users\Oduntan's\Desktop\bootstrap-4.0.0-dist\js\jquery-3.5.1.min.js"></script>
+    <script src="C:\Users\Oduntan's\Desktop\bootstrap-4.0.0-dist\js\bootstrap.min.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
