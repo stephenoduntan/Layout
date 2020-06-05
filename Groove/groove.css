@@ -1,0 +1,153 @@
+html{
+    background: #050505 0% 0% no-repeat padding-box;
+    color: white;
+    width: 100vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    display: block;
+    text-decoration: none;
+}
+.align{
+    display: inline-block;
+}
+.float{
+    float: right;
+}
+
+/* Menu Bar */
+#menubar{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: #4b4a4af1 0% 0% no-repeat padding-box;
+    width: 20vw;
+    height: 100vh;
+    /* padding:5px 20px; */
+}
+#menubar div{
+    margin-bottom: 15px;
+}
+#menubar .group1{
+    /* margin-bottom: 15px; */
+    padding: 0px 15px;
+}
+#menubar a{
+    color: white;
+    padding: 12px 15px;
+}
+#menubar a:hover{
+    background: #cec7c7 0% 0% no-repeat padding-box;
+    color: white;
+    text-decoration: none;
+}
+
+.fa{
+    margin-right: 15px;
+}
+#menu-bar{
+    font-weight: 200;
+    font-size: 22px;
+    /* margin-bottom: 15px */
+}
+.search{
+    display: block;
+    max-width: 18vw;
+    margin-bottom: 15px;
+    padding-left: 15px;
+}
+.search input{
+    box-sizing: border-box;
+    background: #2b2727 0% 0% no-repeat padding-box;
+    border: none;
+    max-width: 14vw;
+    height: 38px;
+    padding: 10px;
+}
+.search-icon{
+    background: #2b2727 0% 0% no-repeat padding-box;
+    /* box-sizing: border-box; */
+    max-width: 4vw;
+    color: whitesmoke;
+    border: none;
+    height: 38px;
+    padding: 7px 25px;
+    cursor: pointer;
+}
+#present{
+    border-left: 4px solid #089ED6;
+}
+.fa-search{
+    margin: 0px;
+    transform: rotateY(180deg);
+    font-size: 20px;
+}
+.fa-file{
+    transform: rotateX(180deg);
+}
+::placeholder{
+    color: #c6c6c6;
+}
+
+.group{
+    border-bottom: 1px solid #c6c6c6;
+}
+#settings{
+    margin-top: 100%;
+    padding: 10px 0px;
+    border-top: 1px solid #c6c6c6;
+}
+
+/* Music Display */
+#music{
+    width: 75%;
+    padding: 0px 35px;
+}
+h1{
+    font-weight: 400;
+}
+.musictab, .musicdetails{
+    border-bottom: 1px solid #c6c6c6;
+}
+.musictab a{
+    color: gray;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 5px 0px;
+    padding-right: 25px;
+}
+.musictab a:hover{
+    color: darkgrey;
+}
+.active{
+    padding: 4px 0px;
+    border-bottom: 3px solid #089ED6;
+}
+#active{
+    color: white;
+}
+.musicdetails p{
+    vertical-align: top;
+    padding: 10px 0px;
+    margin-right: 10px;
+}
+.musicdetails p > a{
+    color: #089ED6;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+    margin: 20px 0px;
+    border-spacing: 1px;
+}
+td{
+    padding: 10px;
+    text-align: left;
+    height: 40px;
+    font-size: 14px;
+}
+
+tr:nth-child(odd){
+    background: rgb(71, 69, 69);
+}
